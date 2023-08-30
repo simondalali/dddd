@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+nav {
+    position: fixed;
+    background-color: skyblue;
+    height: 70px;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bolder;
+    position: relative;
+    left: 5%;
+    color: white;
+    line-height: 70px;
+}
+
+ul {
+    position: relative;
+    float: right;
+    margin-right: 20px;
+}
+
+ul li {
+    display: inline-block;
+    line-height: 70px;
+    margin: 0 5px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+}
+
+.log {
+    background-color: green;
+    border-radius: 5px;
+}
+
+.image1 {
+    width: 100%;
+    height: 300px;
+}
+
+.selection1 {
+    padding-top: 70px;
+}
+
+.scho {
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: white;
+    background-color: midnightblue;
+    padding-right: 20px;
+    padding-left: 20px;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.welcome {
+    width: 70%;
+    height: 250px;
+}
+
+.container {
+    padding-top: 70px;
+}
+
+.col-md-8 {
+    width: 48%;
+    height: 250px;
+    float: right;
+    position: relative;
+    margin-bottom: 80px;
+    font-size: 1em;
+}
+
+.col-md-4 {
+    width: 48%;
+    height: 250px;
+    background-color: black;
+}
+
+.out {
+    width: 48%;
+    height: 250px;
+    background-color: blue;
+}
+
+img {
+    width: 48%;
+    height: 250px;
+}
+
+.out1 {
+    width: 48%;
+    height: 250px;
+}
+
+.label1 {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    padding-right: 10px;
+}
+
+label {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+input {
+    padding: 12px;
+    border-color: aqua;
+    border-radius: 27px;
+}
+
+textarea {
+    border-radius: 19px;
+    border-color: blue;
+}
+
+.sub {
+    background-color: rgb(97, 97, 206);
+    font-weight: bolder;
+    width: 150px;
+}
+
+footer {
+    background-color: black;
+    height: 70px;
+    color: aliceblue;
+    text-align: center;
+}
+
+#a {
+    background-color: aqua;
+}
+
+#b {
+    background-color: green;
+    width: 150px;
+    font-size: 1.3em;
+}
+
+.for {
+    top: 20%;
+    background-color: blue;
+    padding: 50px;
+    width: 400px;
+    border-style: inset;
+    border: 10px solid black;
+    border-radius: 30px;
+}
+
+.in {
+    background-color: darkgreen;
+    color: aliceblue;
+    text-align: center;
+    font-weight: bolder;
+    width: 400px;
+    border-style: groove;
+    border-width: 10px;
+    border-color: red;
+}
+
+.bd {
+    background-position: center;
+    background-size: 100% 100%;
+}
